@@ -207,9 +207,9 @@ ab -n 5000 -c 1000 http://localhost:8080/
 hey -n 1000 -c 100 http://localhost:8080/
 ```
 
-![Load Balancer Logo](/assets/images/lb.png)
-![Load Balancer Logo](/assets/images/res1.png)
-![Load Balancer Logo](/assets/images/res2.png)
+![lb](/assets/images/lb.png)
+![lb](/assets/images/res1.png)
+![lb](/assets/images/res2.png)
 
 ### Модульное тестирование
 Для запуска всех тестов:
