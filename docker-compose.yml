@@ -41,7 +41,6 @@ services:
     image: nginx:alpine
     container_name: backend1
     volumes:
-      - ./test/backends/backend1:/usr/share/nginx/html
       - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
     networks:
       - loadbalancer-network
@@ -57,7 +56,6 @@ services:
     image: nginx:alpine
     container_name: backend2
     volumes:
-      - ./test/backends/backend2:/usr/share/nginx/html
       - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
     networks:
       - loadbalancer-network
@@ -73,7 +71,6 @@ services:
     image: nginx:alpine
     container_name: backend3
     volumes:
-      - ./test/backends/backend3:/usr/share/nginx/html
       - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
     networks:
       - loadbalancer-network
