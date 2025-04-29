@@ -114,7 +114,6 @@ LB_RATE_LIMIT_ENABLED=true
 ### Стандартная сборка
 
 ```bash
-# Клонирование репозитория
 git clone https://github.com/mihailpestrikov/go-cloud-camp-2025-test-assignment
 cd go-cloud-camp-2025-test-assignment
 ```
