@@ -208,3 +208,12 @@ hey -n 1000 -c 100 http://localhost:8080/
 ```
 
 ![Load Balancer Logo](/assets/images/lb.png)
+![Load Balancer Logo](/assets/images/res1.png)
+![Load Balancer Logo](/assets/images/res2.png)
+
+### Модульное тестирование
+Для запуска всех тестов:
+
+```bash
+go test -v ./...
+```
