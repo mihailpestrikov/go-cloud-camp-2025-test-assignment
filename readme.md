@@ -201,7 +201,6 @@ GET /stats
     "active_connections": 2,
     "total_requests": 175,
     "failed_requests": 3,
-    "failure_rate": 1.71
   },
   "http://backend2": {
     "url": "http://backend2",
@@ -209,7 +208,6 @@ GET /stats
     "active_connections": 1,
     "total_requests": 169,
     "failed_requests": 0,
-    "failure_rate": 0
   }
 }
 ```
