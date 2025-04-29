@@ -1,0 +1,34 @@
+server:
+  port: 8080
+  timeout: 10s
+
+logging:
+  level: info       # debug, info, warn, error
+  format: json      # json или console
+  output: stdout    # stdout или file
+  file_path: ./logs/balancer.log  # путь к файлу, если output: file
+
+backends: # для тестирования в докер  
+  - url: http://backend1
+  - url: http://backend2
+  - url: http://backend3
+
+balancer:
+  algorithm: round_robin  # round_robin, least_connections, random
+
+health_check:
+  enabled: true
+  interval: 20s
+  path: /health
+
+rate_limit:
+  enabled: true
+
+redis:
+  addr: localhost:6379
+  password: ""
+  db: 0
+
+default:
+  capacity: 50       # Максимальная емкость бакета
+  refill_rate: 10    # Токенов в секунду
