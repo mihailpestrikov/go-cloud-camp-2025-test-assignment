@@ -200,14 +200,14 @@ GET /stats
     "is_alive": true,
     "active_connections": 2,
     "total_requests": 175,
-    "failed_requests": 3,
+    "failed_requests": 3
   },
   "http://backend2": {
     "url": "http://backend2",
     "is_alive": true,
     "active_connections": 1,
     "total_requests": 169,
-    "failed_requests": 0,
+    "failed_requests": 0
   }
 }
 ```
